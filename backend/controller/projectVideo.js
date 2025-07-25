@@ -1,10 +1,14 @@
 import { v2 as cloudinary } from 'cloudinary';
 import ProjectVideo from '../models/projectVideo.js';
 
+import dotenv from 'dotenv';
+
+dotenv.config(); // Load env variables
+
 cloudinary.config({
-    cloud_name: 'dncayjzf6',
-    api_key: '227586118867997',
-    api_secret: 'gqXaIE4MHT_j6lLyxhorlLCihzI'
+  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+  api_key: process.env.CLOUDINARY_API_KEY,
+  api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
 export const createVideos = async (req, res) => {
