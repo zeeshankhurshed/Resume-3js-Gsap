@@ -166,42 +166,46 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Zeeshan brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
+    review:
+      "Zeeshan showed a strong understanding of frontend development concepts during our project. His dedication and attention to detail were evident in every task he took on.",
+     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "Frontend Developer Intern",
+    date: "March 2024 - June 2024",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Developed key components for a React-based e-commerce platform during internship.",
+      "Worked closely with a mentor to implement responsive UI with Tailwind CSS.",
+      "Learned to use Git/GitHub for version control and collaborative development.",
     ],
   },
   {
-    review: "Zeeshan contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp3.png",
+    review:
+      "Zeeshan impressed the judges with his clean code and user-centric approach at the CodeSprint hackathon.",
+     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Hackathon Participant – CodeSprint",
+    date: "January 2024",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Built a productivity web app in a 24-hour hackathon using Next.js and Firebase.",
+      "Implemented authentication, task tracking, and notifications in the app.",
+      "Pitched the app to judges and received positive feedback for UI and UX design.",
     ],
   },
   {
-    review: "Zeeshan work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp2.png",
+    review:
+      "Zeeshan’s final year project demonstrated strong problem-solving skills and the ability to build full-stack applications.",
+        imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Final Year Project – College Attendance Tracker",
+    date: "Sep 2023 - Dec 2023",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Built a full-stack web app using MERN (MongoDB, Express, React, Node.js).",
+      "Implemented facial recognition attendance with TensorFlow.js and OpenCV.",
+      "Deployed the application and presented it to the university panel.",
     ],
   },
 ];
+
 
 const expLogos = [
   {
